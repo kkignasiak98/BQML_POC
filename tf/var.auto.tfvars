@@ -5,7 +5,8 @@ bq_data_location = "EU"
 
 # API
 
-api_list = [ 
+api_list = [
+            "cloudresourcemanager.googleapis.com",
             "compute.googleapis.com",
              "iam.googleapis.com",
              "storage-component.googleapis.com",
