@@ -15,3 +15,9 @@ variable bq_data_location {
   default     = "UE"
   description = "The location for BigQuery data"
 }
+
+# API
+variable "api_list" {
+  type    = list(string)
+  default = ["compute.googleapis.com", "iam.googleapis.com","storage-component.googleapis.com"]
+}
