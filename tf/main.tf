@@ -10,3 +10,9 @@ module "gcs" {
   project_ID = var.project_ID
   resource_location = var.resource_location
 }
+
+module "bq"{
+  source = "./modules/bq"
+  project_ID = var.project_ID
+  bq_data_location = var.bq_data_location
+}
