@@ -11,7 +11,7 @@ resource "google_storage_bucket" "default-credit-clients" {
 }
 
 resource "google_storage_bucket" "terraform_state_bucket" {
-  name          = "terraform_state_bucket_bqml_sandbox"
+  name          = "terraform_state_bucket_bqml_sandbox_2023_09"
   location      = var.resource_location
   force_destroy = false
   versioning {
