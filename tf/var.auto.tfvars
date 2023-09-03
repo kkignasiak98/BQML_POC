@@ -13,4 +13,5 @@ api_list = [
              "bigquery.googleapis.com",
              "bigquerystorage.googleapis.com",
              "aiplatform.googleapis.com",
+             "dataform.googleapis.com"
            ]
