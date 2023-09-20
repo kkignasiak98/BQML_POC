@@ -11,3 +11,9 @@ crash.log
 
 # Ignore lock files
 *.lock.hcl
+
+## poetry virtual env files
+
+poetry.lock
+pyproject.toml
+
