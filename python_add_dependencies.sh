@@ -26,5 +26,6 @@ poetry add gcloud==0.18.3
 poetry add google-cloud-bigquery==3.4.1
 poetry add google-cloud-bigquery-storage==2.22.0
 poetry add google-cloud-storage==2.10.0
+poetry add google-cloud-aiplatform==1.32.0
 
 
