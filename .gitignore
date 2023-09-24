@@ -17,3 +17,6 @@ crash.log
 poetry.lock
 pyproject.toml
 
+# poetry virtual enviroment
+.venv
+
