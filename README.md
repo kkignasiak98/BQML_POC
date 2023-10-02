@@ -18,6 +18,10 @@ BigQuery ML is a machine learning capability provided by Google BigQuery, a full
 
 - **Real-Time Predictions**: You can make real-time predictions using your trained models directly within BigQuery, which is valuable for applications that require low-latency responses.
 
+## Data Source
+
+The dataset used in this project is sourced from Kaggle, a popular platform for data science competitions and datasets. You can find the original dataset on Kaggle at [link to Kaggle dataset](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset).
+
 ## Repository Structure
 
 - `/tf`: Contains Terraform configurations for setting up the Google Cloud infrastructure required for this project.
@@ -26,6 +30,7 @@ BigQuery ML is a machine learning capability provided by Google BigQuery, a full
 - `/data_prep`: Contains scripts used to load the data into the BigQuery and prepare it for modeling.
 - `/models`: Includes Jupyter notebooks with code used to train the models and also export/import them.
 - `/eda`: Contains a Jupyter notebook with a simple exploratory data analysis.
+- `/.venv`: Includes virtual python  environment created with poetry.
 
 ## Getting Started
 
@@ -84,5 +89,4 @@ For detailed information on setting up, using, and customizing this proof of con
 
 Happy BigQuery ML modeling!
 
-https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset
 
