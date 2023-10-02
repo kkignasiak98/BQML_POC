@@ -10,13 +10,14 @@ poetry add ipywidgets==8.1.0
 poetry add ipykernel==6.24.0
 poetry add ipython==8.14.0
 poetry add jupyterlab==4.0.2
+poetry add seaborn==0.12.2
+poetry add scipy==1.11.3
 
 
 # AI libraries
 poetry add scikit-learn==1.3.0
-#poetry add tensorflow
-#poetry add keras==2.13.1
-#poetry add autokeras 
+poetry add autokeras
+poetry add keras-tuner==1.3 
 
 # Keras and Tensorflow will be added manually because of the internal error.
 
