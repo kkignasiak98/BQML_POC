@@ -19,8 +19,6 @@ poetry add scikit-learn==1.3.0
 poetry add autokeras
 poetry add keras-tuner==1.3 
 
-# Keras and Tensorflow will be added manually because of the internal error.
-
 
 # GCP
 poetry add gcloud==0.18.3
