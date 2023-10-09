@@ -16,3 +16,9 @@ module "bq"{
   project_ID = var.project_ID
   bq_data_location = var.bq_data_location
 }
+
+
+module "service_account"{
+  source = "./modules/service_account"
+  project_ID = var.project_ID
+}

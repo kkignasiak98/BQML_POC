@@ -30,6 +30,10 @@ The Cloud Storage module is responsible for setting up and configuring Google Cl
 
 The BigQuery module is responsible for defining and configuring Google BigQuery resources, such as datasets and tables. It allows for structured data storage and serves as the foundation for running machine learning tasks with BigQuery ML.
 
+### 4. **Service Account Module (`/service_account`)**
+
+The Module is responsible for defining service account used by dbt.
+
 ## Module Structure
 
 Each module within this project follows a consistent structure. It contains the following files:
